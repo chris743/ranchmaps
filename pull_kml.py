@@ -6,7 +6,7 @@ from shapely.geometry import shape
 # === CONFIGURATION ===
 ARCGIS_API_KEY = "AAPTxy8BH1VEsoebNVZXo8HurH7_IUO_uR8ph4fbuquDhM-AuucCdY_vHbl28EKHT4eOGdE5dwDQdlrtefjCzaTI1BdEMNWlgpC4ya_q01gVuGh9Tt6Nt-4X8vXACmLJFovSsizgR1tFTvGdX3-EdyzuV29nBDnV_M_Qtw7tQpsOAeh1J_8MjYVHjw9TkDjafzd0IVHDeBgBgTYll9-XrI4EDN9IDV64Y73eK-H-sFIlGOg.AT1_dzP8qzYv"
 FEATURE_LAYER_URL = "https://services2.arcgis.com/nlv1mN93wziUruyM/arcgis/rest/services/All_Cobblestone_Blocks/FeatureServer/0/query"
-KML_OUTPUT_PATH = "blocks.xml"
+KML_OUTPUT_PATH = "current_blocks.xml"
 
 # === QUERY THE ARCGIS ONLINE LAYER ===
 params = {
